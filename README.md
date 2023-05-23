@@ -59,8 +59,8 @@ Esses comandos são usados para configurar o nome de usuário e o email associad
 
 O comando git status é usado para exibir o estado atual do seu repositório Git. 
 
-## Ramo atual:
-Ele mostra o ramo no qual você está trabalhando no momento.
+## Raiz atual:
+Ele mostra a raiz no qual você está trabalhando no momento.
 
 ## Mudanças não comprometidas (unstaged changes):
 
@@ -75,3 +75,32 @@ Mostra os arquivos que foram adicionados ao stage (área de preparação) para s
 Exibe os arquivos que foram adicionados ao diretório de trabalho, mas ainda não foram adicionados ao Git. Esses arquivos não estão sendo rastreados pelo Git.
 
 </p>
+
+*Git diff;* <br>
+- git diff
+- git diff --staged
+
+## git diff
+ é usado para visualizar as diferenças entre o estado atual do seu repositório Git e um estado anterior. Ele mostra as alterações feitas nos arquivos desde o último commit.
+<br>
+
+## git diff --staged
+ mostra as diferenças entre os arquivos que estão no stage (área de preparação) e o último commit. 
+
+ *git log*
+ - git log
+
+  usado para exibir um histórico dos últimos commits feitos no repositório Git. Ele mostra informações detalhadas sobre os commits, como o autor, a data, a mensagem de commit e um identificador único (hash) para cada commit.
+
+  
+
+*git restore*
+- git restore nome_arquivo
+- git restore  --staged nome_arquivo
+
+## Git restore
+**git restore nome_arquivo**, o comando descarta as alterações feitas no arquivo especificado, revertendo-o para a versão mais recente confirmada no último commit. Isso significa que as modificações feitas após o último commit serão descartadas e o arquivo será restaurado para o estado registrado no último commit.
+
+## Git restore --staged
+
+**git restore --staged nome_arquivo** é usado para remover arquivos do stage (área de preparação) e retorná-los ao estado de modificações não preparadas (unstaged changes). Isso significa que as alterações feitas nesses arquivos não serão incluídas no próximo commit, a menos que você as adicione novamente ao stage.
