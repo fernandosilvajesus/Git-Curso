@@ -29,6 +29,10 @@ de versão como snapshots (fotos) do estado do projeto, alem da refência/caminh
 
 <br>
 
+## O que é github?
+
+O GitHub é uma plataforma de hospedagem e colaboração de desenvolvimento de software baseada em controle de versão Git. É um serviço web que permite aos desenvolvedores hospedar, gerenciar e colaborar em projetos de código aberto e privados
+
 ## Git e suas Operações locais
 
 A maioria das operações do GIT são locais e por isso boa parte das operações são praticamente
