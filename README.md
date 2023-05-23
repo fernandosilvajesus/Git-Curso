@@ -127,7 +127,11 @@ Exibe os arquivos que foram adicionados ao diretório de trabalho, mas ainda nã
   
   Isso garante que você tenha as versões mais atualizadas dos arquivos e possa continuar trabalhando com as modificações mais recentes feitas por outros colaboradores.
 
+*git fetch*
+- git fetch 
 
+ ## git fetch
+ É usado para buscar (fetch) todas as alterações e referências de um repositório remoto para o seu repositório local. Ao contrário do comando "git pull", o "git fetch" não mescla automaticamente as alterações no seu ramo de trabalho atual. Em vez disso, ele atualiza as referências locais, como as branches remotas e tags, para refletir o estado atual do repositório remoto.
 
 
   ## O que são branches em Git e como isso pode nos ajudar
