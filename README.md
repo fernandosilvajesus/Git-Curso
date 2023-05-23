@@ -108,7 +108,6 @@ Exibe os arquivos que foram adicionados ao diretório de trabalho, mas ainda nã
 *git push*
 - git push origin nome_da_branch
 
-
 ## git push
 é usado para enviar suas alterações locais para um repositório remoto. Quando você executa "git push", você está basicamente enviando as confirmações (commits) que você fez no seu repositório local para um repositório remoto específico.
 
@@ -120,4 +119,6 @@ Exibe os arquivos que foram adicionados ao diretório de trabalho, mas ainda nã
 - git pull origin nome_da_branch
 
  ## git pull
-  é usado para obter as alterações feitas por outros colaboradores em um repositório remoto e incorporá-las ao seu repositório local. Quando você executa "**git pull**", o Git busca as alterações mais recentes no repositório remoto e as mescla automaticamente com o seu repositório local. Isso garante que você tenha as versões mais atualizadas dos arquivos e possa continuar trabalhando com as modificações mais recentes feitas por outros colaboradores.
+  é usado para obter as alterações feitas por outros colaboradores em um repositório remoto e incorporá-las ao seu repositório local. Quando você executa "**git pull**", o Git busca as alterações mais recentes no repositório remoto e as mescla automaticamente com o seu repositório local. 
+  
+  Isso garante que você tenha as versões mais atualizadas dos arquivos e possa continuar trabalhando com as modificações mais recentes feitas por outros colaboradores.
