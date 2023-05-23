@@ -104,3 +104,20 @@ Exibe os arquivos que foram adicionados ao diretório de trabalho, mas ainda nã
 ## Git restore --staged
 
 **git restore --staged nome_arquivo** é usado para remover arquivos do stage (área de preparação) e retorná-los ao estado de modificações não preparadas (unstaged changes). Isso significa que as alterações feitas nesses arquivos não serão incluídas no próximo commit, a menos que você as adicione novamente ao stage.
+
+*git push*
+- git push origin nome_da_branch
+
+
+## git push
+é usado para enviar suas alterações locais para um repositório remoto. Quando você executa "git push", você está basicamente enviando as confirmações (commits) que você fez no seu repositório local para um repositório remoto específico.
+
+ Isso permite que outras pessoas acessem e vejam suas alterações, bem como contribuam com suas próprias modificações. É comum usar o comando "**git push**" após fazer uma série de commits locais para sincronizar seu repositório local com o repositório remoto.
+
+
+
+*git pull*
+- git pull origin nome_da_branch
+
+ ## git pull
+  é usado para obter as alterações feitas por outros colaboradores em um repositório remoto e incorporá-las ao seu repositório local. Quando você executa "**git pull**", o Git busca as alterações mais recentes no repositório remoto e as mescla automaticamente com o seu repositório local. Isso garante que você tenha as versões mais atualizadas dos arquivos e possa continuar trabalhando com as modificações mais recentes feitas por outros colaboradores.
